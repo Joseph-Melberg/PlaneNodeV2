@@ -8,4 +8,6 @@ echo "Starting plane connection"
 ./Scripts/Connect.sh >> /dev/null &  
 echo "Starting Temp logging"
 ./Scripts/Temp.sh >> /dev/null &
+echo "Starting Bridge"
+./Scripts/Bridge.sh >> /dev/null &
 sleep infinity
